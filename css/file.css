@@ -1,0 +1,103 @@
+/* gird css*/
+
+.row-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.grid-column {
+    border: 1px solid #000000;
+}
+
+.grid-content {
+    text-align: center;
+}
+
+.grid-img img {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* flex */
+
+.flex-container {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.border-black {
+    /* display: table-column;*/
+    /* width: 33.333333333%;*/
+    flex: 1;
+    /* width: 230%; */
+    border: 1px solid black;
+    /* height: 100%; */
+    /* text-align: center;*/
+    /* flex-basis: auto; */
+    /* border: 1px solid black; */
+}
+
+
+/*.border-black1 {
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+
+.border-black3 {
+    flex: 2 2 0;
+    border: 1px solid black;
+}
+
+.border-black4 {
+    flex: 1 1 0;
+    border: 1px solid black;
+}*/
+
+.border-black img {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.contain {
+    text-align: center;
+}
+
+
+/*float */
+
+* {
+    box-sizing: border-box;
+    /* height: 500px; */
+}
+
+.float-img {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    border: 1px solid black;
+    /* text-align: center; */
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-size {
+    text-align: center;
+}
+
+.float-img img {
+    width: 100%;
+    height: 100%
+}
